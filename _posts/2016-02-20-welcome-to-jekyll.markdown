@@ -24,7 +24,8 @@ hi, you should see this alert
 <script
   src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous">
+</script>
 <script>
   $(document).ready(function () { alert("Hello, person looking at this alert."); });
 </script>
