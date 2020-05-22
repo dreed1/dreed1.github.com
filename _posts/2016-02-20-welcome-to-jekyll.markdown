@@ -20,8 +20,13 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+hi, you should see this alert
+<script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
 <script>
-  ({alert("Hi");}){};
+  $(document).ready(function () { alert("Hello, person looking at this alert."); });
 </script>
 
 [jekyll-docs]: http://jekyllrb.com/docs/home
